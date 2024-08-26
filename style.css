@@ -36,10 +36,10 @@ a {
 
 .Hero_sec {
     display: flex;
-    height: 60vh;
+    height: 100%;
     width: 100%;
     margin-bottom: 10px;
-    gap: 10%;
+    /* gap: 10%; */
     margin-top: 20px;
     justify-content: space-between;
 }
@@ -93,30 +93,43 @@ a {
 }
 
 .Hero_sec-img {
-    width: 35%;
+    width: 45%;
+    position: relative;
 }
 
 .img2 {
-    position: relative;
-    right: 6%;
-    top: 15%;
+    position: absolute;
+    right: 23%;
+    top: 20%;
+    
 
 }
 
 .img1 {
-    position: relative;
-    bottom: 125%;
-    right: 15%;
+    position: absolute;
+    /* bottom: 125%; */
+    right: 55%;
 }
 
 .img3 {
-    position: relative;
-    right: -10%;
-    bottom: 100%;
+    position: absolute;
+    left: 45%;
+    top: 53%;
 }
 
 .Large_Img1 {
     width: 100%;
+    margin-top: 10%;
+    /* display: none; */
+}
+.Large_Img1-about{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Large_Img1-about-Large_txt{
+    color:rgb(0 114 94);
+    font-size: 50px;
 }
 
 @media (max-width:650px) {
