@@ -95,13 +95,13 @@ a {
 
 .Hero_sec-img {
     width: 45%;
-    position: relative;
+    /* position: relative; */
 }
 
 .img2 {
     position: absolute;
-    right: 23%;
-    top: 20%;
+    right: 8%;
+    top: 23%;
 
 
 }
@@ -109,13 +109,14 @@ a {
 .img1 {
     position: absolute;
     /* bottom: 125%; */
-    right: 55%;
+    right: 23%;
+    top: 10%;
 }
 
 .img3 {
     position: absolute;
-    left: 45%;
-    top: 53%;
+    left: 78%;
+    top: 43%;
 }
 
 .Large_Img1 {
@@ -132,8 +133,8 @@ a {
 
 .Large_Img1-about-Large_txt {
     color: rgb(0 114 94);
-    font-size: 150%;
-    font-weight: bolder;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .arc {
@@ -151,7 +152,7 @@ a {
 .jobs_type {
     background-color: rgb(0 114 94);
     margin: 10px;
-    width: 30%;
+    width: 29%;
     height: 250px;
     border-bottom-right-radius: 10px;
     padding: 10px;
@@ -214,6 +215,7 @@ a {
 .testimonial-comment {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .testimonial-comment-content {
@@ -223,17 +225,167 @@ a {
     padding: 10px;
     gap: 10px;
 }
-.testimonial-comment-content-header{
+
+.testimonial-comment-content-header {
     margin-top: 10%;
 }
- .testimonial-comment-content-about{
+
+.testimonial-comment-content-about {
     width: 60%;
     display: flex;
 }
-.testimonial-comment-content-about-name-prof{
-  margin-top: 15%;  
+
+.testimonial-comment-content-about-name-prof {
+    margin-top: 15%;
 }
 
+.Donate {
+    display: flex;
+    
+    height: 95vh;
+    margin-bottom: 10px;
+}
+
+.donate-img {
+    width: 50%;
+    margin-top: 3%;
+    margin-right: 15%;
+}
+
+.donate-img-2 {
+    position: absolute;
+    top: 360%;
+    left: 9.5%;
+}
+
+.donate-img-1 {
+    position: absolute;
+    top: 345%;
+    left: 1.5%;
+}
+
+.donate-img-3 {
+    position: absolute;
+    top: 383%;
+    left: 25%;
+}
+
+.img2-s {
+    width: 100%;
+}
+
+.img1-s {
+    width: 100%;
+}
+
+.img3-s {
+    width: 100%;
+}
+
+.donate-txt {
+    width: 50%;
+    margin-right: 20px;
+    font-family:  'Arial Narrow Bold';
+}
+
+.donate-txt-head {
+    font-size: 24px;
+    color: rgb(6, 153, 126);
+}
+
+.donate-txt-sec_head {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.donate-txt-paragraph1 {
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 200;
+}
+
+.donate-txt-amount {
+    border: 2px solid rgb(6, 153, 126);
+    font-size: 20px;
+    display: flex;
+}
+
+.donate-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-txt-button {
+    margin-top: 5%;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(6, 153, 126);
+    color: #fff;
+    padding: 15px 25px;
+    outline:rgb(6, 153, 126) ;
+}
+
+.donate-txt-amount1 {
+    /* width: 90%; */
+    padding: 15%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: rgb(214, 245, 239);
+    margin: 0px;
+    padding: 0px;
+    padding: 100px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left_logo{
+    margin-bottom: 25px;
+    color:rgb(6, 153, 126) ;
+    font-size: 25px;
+}
+.footer-left_paragraph{
+    
+}
+.footer-left_head{
+    margin-top:25px ;
+}
+.footer-left_input{
+    margin-top: 25px;
+}
+.footer-middle{
+    
+}
+.footer-right-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right-links-navigation{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px
+}
+.footer-right-links-navigation-head-links{
+line-height: 30px;
+}
+
+.footer-right-links-navigation-head{
+    margin-bottom: 25%;
+}
+.footer-right-links-help-head{
+    margin-bottom: 25%;
+}
+.footer-right-links-help-head-links{
+    line-height: 30px;
+}
+.footer-right{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
 @media (max-width:650px) {
     .Navigation {
         display: none;
@@ -301,16 +453,19 @@ a {
         padding: 5px;
         font-size: 50%;
     }
-    .testimonial_responds{
+
+    .testimonial_responds {
         margin-bottom: 10px;
     }
-    .testimonial_responds-txt{
+
+    .testimonial_responds-txt {
         width: 90%;
         font-size: 120%;
         margin-top: 10px;
-        
+
     }
-    .testimonial_responds-button{
+
+    .testimonial_responds-button {
         /* height: 10%; */
         /* padding: 10px; */
         font-size: 120%;
@@ -318,21 +473,118 @@ a {
         height: 90%; */
         text-align: center;
     }
-.testimonial-comment{
-    display: block;
-}
+
+    .testimonial-comment {
+        display: block;
+    }
+
     .testimonial-comment-content {
         width: 90%;
         display: block;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
-    .testimonial-comment-content-header{
+
+    .testimonial-comment-content-header {
         font-size: 90%;
     }
-    .testimonial-comment-content-body{
+
+    .testimonial-comment-content-body {
         font-size: 80%;
     }
-    .testimonial-comment-content-about{
+
+    .testimonial-comment-content-about {
         width: 70%;
+    }
+
+    .donate-img {
+        width: 100%;
+        margin-top: 3%;
+        height: 70vh;
+        margin-bottom: ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .donate-img-2 {
+        position: absolute;
+        top: 570%;
+        left: 23%;
+
+    }
+
+    .donate-img-1 {
+        position: absolute;
+        top: 560%;
+        left: 10%;
+
+    }
+
+    .donate-img-3 {
+        position: absolute;
+        top: 583%;
+        left: 47%;
+    }
+
+    .img2-s {
+        width: 60%;
+    }
+
+    .img1-s {
+        width: 60%;
+    }
+
+    .img3-s {
+        width: 60%;
+    }
+
+    .donate-txt {
+        width: 100%;
+    }
+
+    .Donate {
+        flex-direction: column-reverse;
+    }
+
+    .donate-txt-head {
+        font-size: 80%;
+        color: rgb(6, 153, 126);
+    }
+
+    .donate-txt-sec_head {
+        font-size: 85%;
+        margin-top: 1%;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .donate-txt-paragraph1 {
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 8%;
+    }
+
+    .donate-txt-amount {
+        border: 2px solid rgb(6, 153, 126);
+        display: flex;
+    }
+
+    .donate-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        margin-top: 30%;
+        display: block;
+    }
+    .footer-left{
+        text-align: center;
+    }
+    .footer-right-links{
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .footer-right{
+        text-align: center;
+    
     }
 }
