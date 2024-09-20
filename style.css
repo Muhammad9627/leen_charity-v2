@@ -32,7 +32,7 @@ a {
     color: black;
 }
 
-.Login_button {
+#Login_button {
     border-bottom-right-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -42,6 +42,10 @@ a {
     /* border: 10px thin rgb(6, 153, 126); */
     border-color: rgb(6, 153, 126);
 
+}
+
+#user {
+    display: none;
 }
 
 .Hero_sec {
@@ -168,7 +172,7 @@ a {
 .jobs_type {
     background-color: rgb(0 114 94);
     margin: 10px;
-    width: 28%;
+    width: 30%;
     /* height: 250px; */
     border-bottom-right-radius: 10px;
     padding: 10px;
@@ -385,6 +389,8 @@ a {
 
 .footer-left_input {
     margin-top: 25px;
+    display: flex;
+    
 
 }
 
@@ -480,7 +486,7 @@ a {
 }
 
 .donate-amount-input {
-    outline: none;
+    border: none;
     margin-left: 10px;
     /* border-radius: 10px; */
     /* border: 2px solid rgb(6, 153, 126); */
@@ -667,7 +673,12 @@ a {
 .Payment-img {
     display: none;
 }
-
+#email-ip{
+    border: none;
+}
+.arrow{
+    margin-top: 4px;
+}
 @media (max-width:650px) {
     .Nav_sec {
         /* width: 100%; */
@@ -683,6 +694,18 @@ a {
         padding: 10px;
     }
 
+    #user {
+        display: block;
+        margin-top: 10px;
+        float: right;
+        background-color: white;
+        border: none;
+    }
+
+    #Login_button {
+        display: none;
+    }
+
     .donate-pg-sec1_top-left {
         flex-direction: row-reverse;
         /* width: 100%; */
@@ -692,12 +715,16 @@ a {
     .donate-txt-head {
         width: 50%;
     }
-
+    .footer-left_input {
+       
+        justify-content: center;
+    
+    }
     /* .. */
     .donate-pg-sec2_top {
         width: 60%;
         margin-top: 65px;
-        line-height: 80px;
+        line-height: 250%;
 
     }
 
@@ -721,20 +748,80 @@ a {
     }
 
     .donate-amount {
-        padding: 0px 10px;
+        padding: 0px 0px;
         border: 3px solid rgb(6, 153, 126);
         border-radius: 10px;
         display: flex;
+        width: 160%;
+        font-size: 60%;
+        height: 10%;
     }
 
     .donate-amount-input {
         outline: none;
         margin-left: 10px;
+        border: none;
+        width: 85%;
         /* border-radius: 10px; */
         /* border: 2px solid rgb(6, 153, 126); */
     }
-    .green-bot-sec2-part2{
-        
+
+    .select {
+        font-size: 80%;
+    }
+
+    .green-bot-sec2-part2 {}
+
+    .green-bot-top_sec1 {
+        width: 50%;
+    }
+
+    .green-bot-sec2 {
+        width: auto;
+        gap: 10px;
+    }
+
+    .green-bot_sec1-body-head {
+        font-size: 65%;
+    }
+
+    .green-bot_sec1-body-body {
+        font-size: 65%;
+        width: 60%;
+    }
+
+    .green-bot-sec2-location {
+        font-size: 70%;
+    }
+
+    .green-bot-sec2-location-cont {
+        font-size: 70%;
+        width: 25%;
+    }
+
+    .green-bot-sec2-part2 {
+        width: 45%;
+    }
+
+    .lrg_img-content {
+        font-size: 70%;
+    }
+
+    .donate-arc {
+        font-size: 70%;
+    }
+
+    .Large_Img1-about-Large_txt {
+        width: 20%;
+    }
+
+    .donate-pg-body_container {
+        font-size: 80%;
+        line-height: 100%;
+    }
+
+    .donate_head {
+        font-size: 90%;
     }
 
     .donate-pg-sec1_top-left {
@@ -753,6 +840,10 @@ a {
 
     .donate-pg-sec1_top-right-button {
         margin-bottom: 40px;
+        font-size: 70%;
+        display: flex;
+        width: 100%;
+
     }
 
     .Login_button {
