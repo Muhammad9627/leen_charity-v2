@@ -994,7 +994,9 @@
      color: #fff;
      font-weight: 600;
  }
-
+.s-sub{
+    font-weight: bold;
+}
  @media (max-width:650px) {
      /* .Nav_sec {
      width: 100%; 
